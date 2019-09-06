@@ -1,0 +1,18 @@
+{
+  "name": "firemail",
+  "version": "1.0.0",
+  "description": "Email service",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.2",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mostafa El-fishawy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

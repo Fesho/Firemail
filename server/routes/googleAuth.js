@@ -29,7 +29,8 @@ exports.googleAuth = app => {
             {
                 clientID: keys.GoogleClientID,
                 clientSecret: keys.GoogleClientSecret,
-                callbackURL: '/auth/google/callback'
+                callbackURL: '/auth/google/callback',
+                proxy:true
             },
 
             async (accessToken, refreshToken, profile, done) => {
